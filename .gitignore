@@ -1,0 +1,32 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary and local working files
+*.tmp
+*.bak
+*.log
+drafts-private/
+raw-evidence/
+
+# Potential secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Challenge archives and common binary evidence (review before any exception)
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.pcap
+*.pcapng
+*.evtx
+*.dmp
+
